@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+nav{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 1000px;
+    background-color: greenyellow
+}
+main{
+    display: flex;
+    background-color: aquamarine;
+    justify-content: center;
+    
+}
+.main-content{
+    background-color: brown;
+    display: flex;
+    min-height: 500px;
+    width: 1000px;
+    padding-top: 20px;
+    
+    
+}
+.img-mkp{
+    background-color: blue;
+}
+.img-mkp img{
+    width: 500px;
+    height: auto;
+}
+.text{
+    background-color: bisque;
+}
+.text p{
+    color: aliceblue;
+}
+footer{
+    max-height: 1000px;
+}
