@@ -5,42 +5,65 @@
     background-size: cover;
     box-sizing: border-box;
 }
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(images/bg-desktop.svg);
+    background-size: 84%;
+}
 nav{
-    background-color: blueviolet;
     display: flex;
     justify-content: center;
+    height: 150px;
+    align-items: center;
 }
 .logo{
-    width: 1000px;
-    background-color: greenyellow
+    width: 1600px;
+    
 }
 main{
     display: flex;
-    background-color: aquamarine;
     justify-content: center;
     
 }
 .main-content{
-    background-color: brown;
+    
     display: flex;
     min-height: 500px;
-    width: 1000px;
+    width: 1600px;
     padding-top: 20px;
     
     
 }
-.img-mkp{
-    background-color: blue;
-}
 .img-mkp img{
-    width: 500px;
+    width: 900px;
     height: auto;
 }
 .text{
-    background-color: bisque;
+    padding-left: 40px;
+    padding-top: 50px;
 }
 .text p{
     color: aliceblue;
+    font-family: 'Open Sans';
+    font-size: 23px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.text h1{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+}
+button{
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans';
+    font-size: 25px;
+    padding: 20px 80px;
+    border-radius: 50px;
+    border: none;
+    
 }
 footer{
     max-height: 1000px;
