@@ -103,3 +103,32 @@ button:hover{
     color: hsl(310, 88%, 66%);
     border-color: hsl(310, 88%, 66%);;
 }
+@media screen and (max-width: 767px) {
+    body{
+        background-image: url(images/bg-mobile.svg);
+        background-size: cover;
+
+    }
+    .logo img{
+        width: 250px;
+        height: auto;
+    }
+    nav{
+        background-color: brown;
+        width: 100vw;
+    }
+    .img-mkp{
+        background-color: lightgreen;
+        width: 100vw;
+        
+    }
+    .main-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .img-mkp img{
+        width: 250px;
+        height: auto;
+    }
+}
+
