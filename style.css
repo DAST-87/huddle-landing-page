@@ -108,7 +108,7 @@ button:hover{
 @media screen and (max-width: 767px) {
     body{
         background-image: url(images/bg-mobile.svg);
-        background-size: cover;
+        background-size: contain;
 
     }
     .logo img{
@@ -162,25 +162,36 @@ button:hover{
         
         
     }
-    .ico{
-        width: 100vw;
-        display: flex;
-        justify-content: center;
-        background-color: blue;
-    }
-    .ico ul li a{
+    footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 23px;
-        border: solid 2px white;
+    }
+    .social{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+    .ico{
+        display: flex;
+        justify-content: center;
+        width: 120px;
+    }
+    .ico ul{
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+    }
+    .ico ul li a{
+        display: flex;
+        font-size: 14px;
+        border: solid 1px white;
         border-radius: 100px;
-        padding: 0px;
-        width: 50px;
-        height: 50px;
-        margin-left: 0px;
+        width: 26px;
+        height: 26px;
         text-decoration: none;
         color: white;
+        margin-left: 0;
     }
 }
 
